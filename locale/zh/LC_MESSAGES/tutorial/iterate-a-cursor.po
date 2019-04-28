@@ -123,21 +123,21 @@ msgstr "迭代器索引"
 #: ../source/tutorial/iterate-a-cursor.txt:83
 msgid ""
 "In the :program:`mongo` shell, you can use the "
-":method:`~cursor.toArray()` method to iterate the cursor and return the "
+":method:`cursor.toArray()` method to iterate the cursor and return the "
 "documents in an array, as in the following:"
 msgstr ""
-"在 :program:`mongo`命令行里，你可以使用 :method:`~cursor.toArray()` 方法来迭"
+"在 :program:`mongo`命令行里，你可以使用 :method:`cursor.toArray()` 方法来迭"
 "代游标，并且以数组的形式来返回文档，如下例所示："
 
 # 65b67a642cbf4b8fa8808a6610f88035
 #: ../source/tutorial/iterate-a-cursor.txt:93
 msgid ""
-"The :method:`~cursor.toArray()` method loads into RAM all documents "
-"returned by the cursor; the :method:`~cursor.toArray()` method exhausts "
+"The :method:`cursor.toArray()` method loads into RAM all documents "
+"returned by the cursor; the :method:`cursor.toArray()` method exhausts "
 "the cursor."
 msgstr ""
-" :method:`~cursor.toArray()` 方法把游标返回的所有文档加载到内存中；:method:"
-"`~cursor.toArray()` 方法遍历（exhausts）游标。"
+" :method:`cursor.toArray()` 方法把游标返回的所有文档加载到内存中；:method:"
+"`cursor.toArray()` 方法遍历（exhausts）游标。"
 
 # 44b6e74e6bbd4d0dbf08bac4e431b594
 #: ../source/tutorial/iterate-a-cursor.txt:97
@@ -145,7 +145,7 @@ msgid ""
 "Additionally, some :doc:`drivers </applications/drivers>` provide access "
 "to the documents by using an index on the cursor (i.e. "
 "``cursor[index]``). This is a shortcut for first calling the "
-":method:`~cursor.toArray()` method and then using an index on the "
+":method:`cursor.toArray()` method and then using an index on the "
 "resulting array."
 msgstr ""
 "另外，一些 :doc:`驱动 </applications/drivers>` 通过在游标上使用索引来提"
